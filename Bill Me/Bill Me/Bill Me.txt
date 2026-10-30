@@ -1,0 +1,41 @@
+Website Name : Bill Me
+
+When i open the app It should have login
+username : bill
+password : bill@123
+
+When Login Successful !
+
+there should be four options as :
+
+i) Bill Now 
+ii) Add Product 
+iii) Update Stock
+iv) See Available Products & stocks
+
+when user clicks "Add Product"
+get input such as 
+
+1.Product Name
+2.Manufacturer info(all)
+3.Type of product 
+and other required details like price....
+
+
+When user clicks Update stock
+
+The User Can Add Or Modify stocks and along with Expiration date and price(if any ...because products may not applicable to expiry) and generate a pdf report
+
+When user clicks 'See Available Products & stocks' they should be displayed and download if required  to generate a pdf report
+
+and the final one 
+
+when user clicks 'Bill Now' and a input box/select box should have to choose product[like if user enters first or second letter it should show suggestions] and Quantity and when he clicks add /enter clicked a table should appear at bottom of displaying details and next product can be added and so on
+
+and in bottom when user clicks generate bill it should as for customer details like name, mobile number and discount (if any)
+
+
+Frontend : HTML , CSS ,JS...(in setup templates.py)
+Backend : python flask(app.py) and include mongodb code in it for database storage
+
+
